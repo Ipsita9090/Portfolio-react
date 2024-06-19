@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio-react/static/css/main.b778b482.css",
+    "main.js": "/Portfolio-react/static/js/main.a70ca62e.js",
+    "static/js/453.809939df.chunk.js": "/Portfolio-react/static/js/453.809939df.chunk.js",
+    "static/media/ruins.jpg": "/Portfolio-react/static/media/ruins.c4597c625ee4f0688b59.jpg",
+    "static/media/grad.jpg": "/Portfolio-react/static/media/grad.4faf3d169309c070b429.jpg",
+    "static/media/IMG20220107123834.jpg": "/Portfolio-react/static/media/IMG20220107123834.c1afa344e549f19a0b89.jpg",
+    "static/media/img2.jpg": "/Portfolio-react/static/media/img2.4a6b7e47101941477b6f.jpg",
+    "static/media/android.png": "/Portfolio-react/static/media/android.368795fd6131f80aed57.png",
+    "static/media/BG-home.png": "/Portfolio-react/static/media/BG-home.213374c3327446c105c1.png",
+    "static/media/forest-svg.png": "/Portfolio-react/static/media/forest-svg.2e8732d2958a3af58bd7.png",
+    "static/media/meme.png": "/Portfolio-react/static/media/meme.2c76a033a927f59d959e.png",
+    "static/media/meme-svg.png": "/Portfolio-react/static/media/meme-svg.bb9be53a11cdfc9d599d.png",
+    "static/media/android-svg.png": "/Portfolio-react/static/media/android-svg.20dbd1e2b06725b9cd5a.png",
+    "static/media/farmer.png": "/Portfolio-react/static/media/farmer.33f28168ac4bcaa8d42c.png",
+    "static/media/tour-svg.png": "/Portfolio-react/static/media/tour-svg.6308167d1fc424991858.png",
+    "static/media/tourism.png": "/Portfolio-react/static/media/tourism.968de74c29495021c172.png",
+    "static/media/logo.svg": "/Portfolio-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Portfolio-react/index.html",
+    "main.b778b482.css.map": "/Portfolio-react/static/css/main.b778b482.css.map",
+    "main.a70ca62e.js.map": "/Portfolio-react/static/js/main.a70ca62e.js.map",
+    "453.809939df.chunk.js.map": "/Portfolio-react/static/js/453.809939df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b778b482.css",
+    "static/js/main.a70ca62e.js"
+  ]
+}
