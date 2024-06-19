@@ -1,0 +1,227 @@
+body{
+    animation: scroll 200s linear infinite;
+    padding: 0;
+    margin: 0;
+    background-image: url('../Assets/BG-home.png');
+    background-color: #aae4fa84;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: auto;
+    box-sizing: border-box;
+    font-family: "Salsa", cursive;
+  
+}
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+     
+    
+}
+
+h1{
+    font-size:7rem;
+    font-family: "Salsa", cursive;
+    font-weight: lighter;
+    margin-top: 13rem;
+    margin-bottom: 6.25rem;
+    /* position: relative; */
+    text-align: center;
+}
+
+.vert, .content{
+    display: flex;
+    margin: 3rem 5rem;
+
+
+
+}
+.vert img{
+    border-radius:500px;
+    width:300px;
+}
+.vert, .box {
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.content img{
+    width:300px;
+    height: auto;
+    border-radius: 50px;
+    
+    
+}
+
+.content div, .vert div{
+    text-align: justify;
+}
+p{
+    
+    text-align: center;
+    font-size: 30px;
+    font-style:normal; 
+    font-weight: 80;
+    font-family:"Salsa", cursive;
+ }
+
+ 
+
+ .svg img{
+    height: 20rem;
+    width:auto;
+    object-fit: scale-down;
+}
+footer{
+    background-color: #0074893d;
+    
+    
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+      
+  }
+
+  form{
+    margin: 0 6rem;
+  }
+  label{
+    font-size: 2rem;
+  }
+  .submit{
+    width: 10rem;
+    border-radius: 10px;
+    background-color:rgba(15, 169, 180, 0.5) ;
+    font-size: 20px;
+  }
+  .btncontainer{
+    text-align: center;
+  }
+
+.boxcontain, .socials{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+.box{
+    text-align: center;
+    background-color: #55b2c3;;
+    border-radius: 50px;
+    width: 20rem;
+    height: 32REM;
+    margin: 2rem;
+    padding: 3rem;
+}
+.boximage{
+    height: 300px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    
+}
+.boximage img{
+    margin: 5px;
+    width: 15rem;
+    height: auto;
+}
+
+textarea{
+    background: #d3f1fcae;
+ }
+ form{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.socials{
+    
+   
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;   ;
+    text-align: center;
+
+ }
+ .bi{
+    margin: 2rem;
+    font-size: 3.5rem;
+}
+
+.content div p, .vert div p{
+   text-align: justify;
+   margin: 5rem;
+    
+}
+
+
+body.dark-mode .cv{
+    background-color: #fff;
+  }
+
+body.dark-mode {
+    background-color: #121212 !important;
+    color: #d3f1fc !important;
+  }
+  
+  body.dark-mode nav {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+  }
+  
+  body.dark-mode a {
+    color: #d3f1fc !important;
+  }
+  
+  body.dark-mode .dropping-texts > div {
+    color: #d3f1fc !important;
+  }
+  
+  body.dark-mode footer {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+  }
+  
+  body.dark-mode .box {
+    background-color: #333 !important;
+    color: #d3f1fc !important;
+  }
+  
+  .btn-light-mode {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+  }
+  
+  body.dark-mode footer p {
+    color: #d3f1fc !important;
+  }
+  
+  body.dark-mode .section#contact {
+    color: #d3f1fc !important;
+  }
+  
+  body.dark-mode .bi {
+    color: #d3f1fc !important;
+  }
+  #about img:hover {
+    transform: rotateY(180deg); /* Rotate around Y-axis */
+  }
+  #about img {
+    transition: transform 0.5s ease;
+  }
+  @keyframes scroll {
+    100% {
+      background-position: 0px -400%;
+    }
+  }
+  @media (prefers-reduced-motion) {
+    body {
+      animation: scroll 1600s linear 20s;
+    }
+  }

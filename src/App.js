@@ -1,24 +1,44 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import Home from './Components/Body/Home';
+import About from './Components/Body/About';
+import Work from './Components/Body/Work';
+import Contact from './Components/Body/Contact';
+import Footer from './Components/Body/Footer';
+import Darkmode from './Components/Body/Darkmode';
 
 function App() {
+  const contentStyle={
+    marginLeft: '7rem'
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    
+    <Navbar/>
+    <Darkmode/>
+    
+    
+    <div style={contentStyle}>
+      <div>
+      <Home/>
+      </div>
+      <div>
+      <About/>
+      </div>
+      <div>
+      <Work/>
+      </div>
+      <div>
+      <Contact/>
+      </div>
+      <footer>
+      <Footer/>
+      </footer>
     </div>
+
+    
+    </>
   );
 }
 
